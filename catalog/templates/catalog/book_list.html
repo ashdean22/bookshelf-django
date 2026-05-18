@@ -1,0 +1,29 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}All Books — BookShelf{% endblock %}
+
+{% block content %}
+  <h1>All Books</h1>
+
+  <p>
+    <a href="{% url 'catalog:book_create' %}"
+       style="display: inline-block; padding: 0.5rem 1rem; background: #2563eb; color: white; border-radius: 6px;">
+      + Add a Book
+    </a>
+  </p>
+
+  <form method="get" style="margin-bottom: 1.5rem;">Search</button>
+  </form>
+
+  {% for book in books %}
+    <div class="book-card">
+      <h3>
+        <a href="{% url 'catalog:book_detail' book.pk %}">{{ book.title }}</a>
+      </h3>
+      <p class="meta">by {{ book.author.name }}</p>
+      <p>{{ book.description|truncatewords:25 }}</p>
+    </div>
+  {% empty %}
+    <p>No books found.</p>
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}Log In — BookShelf{% endblock %}
+
+{% block content %}
+  <h1>Log In</h1>
+
+  <form method="post" novalidate>
+    {% csrf_token %}
+
+    {% for field in form %}
+      <div style="margin-bottom: 1rem;">
+        <label for="{{ field.id_for_label }}" style="display: block; font-weight: 600; margin-bottom: 0.25rem;">
+          {{ field.label }}
+        </label>
+        {{ field }}
+        {% for error in field.errors %}
+          <div style="color: #c00; font-size: 0.9rem;">{{ error }}</div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
+    {% if form.non_field_errors %}
+      <div style="color: #c00; margin-bottom: 1rem;">
+        {{ form.non_field_errors }}
+      </div>
+    {% endif %}
+
+    <button type="submit" style="padding: 0.5rem 1.25rem; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer;">
+      Log In
+    </button>
+  </form>
+{% endblock %}

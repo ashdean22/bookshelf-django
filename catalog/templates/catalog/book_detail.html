@@ -1,0 +1,30 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}{{ book.title }} — BookShelf{% endblock %}
+
+{% block content %}
+    <p><a href="{% url 'catalog:book_list' %}">← Back to all books</a></p>
+
+    <h1>{{ book.title }}</h1>
+    <p class="meta">by {{ book.author.name }}</p>
+
+    {% if book.cover_image_url %}
+        <img src="{{ book.cover_image_url }}" alt="{{ book.title }} cover" style="max-width: 200px;">
+    {% endif %}
+
+    <h3>Description</h3>
+    <p>{{ book.description|default:"No description available." }}</p>
+
+    <h3>Details</h3>
+    <ul>
+        <li><strong>Published:</strong> {{ book.published_date|default:"Unknown" }}</li>
+        <li><strong>ISBN:</strong> {{ book.isbn|default:"N/A" }}</li>
+        <li><strong>Categories:</strong>
+            {% for category in book.categories.all %}
+                {{ category.name }}{% if not forloop.last %}, {% endif %}
+            {% empty %}
+                None
+            {% endfor %}
+        </li>
+    </ul>
+{% endblock %}
