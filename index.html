@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- ============ PRIMARY SEO ============ -->
+<title>Ashton Dean | AI · Automation · Web — Generalist Builder</title>
+<meta name="description" content="Ashton Dean builds AI systems, automation workflows, and SEO-optimized websites. Generalist builder shipping agentic workflows in n8n, GTM lead-gen pipelines, and production web/mobile apps." />
+<meta name="author" content="Ashton Dean" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://portfolio-gabedean822-9871s-projects.vercel.app/" />
+
+<!-- ============ OPEN GRAPH ============ -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Ashton Dean | AI · Automation · Web" />
+<meta property="og:description" content="Generalist builder: AI systems, automation workflows, and SEO-optimized websites." />
+<meta property="og:url" content="https://portfolio-gabedean822-9871s-projects.vercel.app/" />
+<meta property="og:image" content="https://portfolio-gabedean822-9871s-projects.vercel.app/og-image.png" />
+<meta property="og:site_name" content="Ashton Dean" />
+
+<!-- ============ TWITTER CARD ============ -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ashton Dean | AI · Automation · Web" />
+<meta name="twitter:description" content="Generalist builder: AI systems, automation workflows, and SEO-optimized websites." />
+<meta name="twitter:image" content="https://portfolio-gabedean822-9871s-projects.vercel.app/og-image.png" />
+
+<!-- ============ JSON-LD: PERSON ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ashton Dean",
+  "url": "https://portfolio-gabedean822-9871s-projects.vercel.app",
+  "image": "https://portfolio-gabedean822-9871s-projects.vercel.app/headshot.jpg",
+  "jobTitle": "AI Solution Architect & Full-Stack Builder",
+  "worksFor": { "@type": "Organization", "name": "Outlander Ventures" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Liberty University" },
+  "email": "mailto:ashdean1055@gmail.com",
+  "telephone": "+1-919-758-7027",
+  "address": { "@type": "PostalAddress", "addressLocality": "Lynchburg", "addressRegion": "VA", "addressCountry": "US" },
+  "sameAs": [ "https://www.linkedin.com/in/ashton-dean-3144b7201", "https://github.com/ashdean22" ],
+  "knowsAbout": [
+    "AI Solution Architecture", "Agentic Workflows", "n8n", "LangChain Agents",
+    "Workflow Automation", "Retrieval-Augmented Generation", "Large Language Models",
+    "Go-to-Market Engineering", "Lead Generation Automation",
+    "React Native", "Full-Stack Web Development", "SEO", "Answer Engine Optimization",
+    "Schema Markup", "Vapi", "Voice AI Agents"
+  ]
+}
+</script>
+
+<!-- ============ JSON-LD: FAQ (AEO) ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Ashton Dean do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ashton Dean is a generalist builder who ships AI systems, automation workflows, and production websites. He builds agentic workflows in n8n, GTM lead-generation pipelines, voice AI agents with Vapi, and SEO-optimized web and mobile applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Go-to-Market (GTM) engineering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GTM engineering applies software automation to sales and marketing pipelines: automated prospecting, lead enrichment, outbound sequencing, and CRM workflow integration. Ashton builds these systems with n8n, Serper, Apify, and LLM-based qualification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tools does Ashton specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Primary stack: n8n for workflows, LangChain agents, OpenAI and Anthropic Claude APIs, Google Gemini, Vapi, Apify, Serper, Supabase, React Native, and modern web tooling for SEO and AEO."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Ashton available for freelance work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Open to projects across AI engineering, automation, GTM systems, and full-stack web or mobile builds. Contact via ashdean1055@gmail.com."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- ============ FONTS ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Poiret+One&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- ============ STYLES ============ -->
+<style>
+/* ===================================================
+   DESIGN TOKENS — MIDNIGHT HYBRID PALETTE
+   =================================================== */
+:root {
+  /* Palette */
+  --bg:            #0a1628;
+  --bg-elev:       #11203a;
+  --bg-card:       #142849;
+  --border:        #2a3f5f;
+  --border-gold:   #8b6f3a;
+  --text:          #f5ecd9;
+  --text-dim:      #c5b896;
+  --text-faint:    #7d8aa3;
+  --accent:        #d4a857;
+  --accent-bright: #e8c275;
+  --accent-soft:   rgba(212, 168, 87, 0.12);
+  --teal:          #5fa8a3;
+  --teal-soft:     rgba(95, 168, 163, 0.15);
+
+  /* Typography */
+  --font-marquee:  'Rampart One', 'Georgia', serif;
+  --font-display:  'Poiret One', 'Georgia', serif;
+  --font-body:     'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:     'Space Mono', 'Courier New', monospace;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  /* Layout */
+  --max-width: 1100px;
+  --radius:    3px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Subtle starfield background */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(245, 236, 217, 0.4), transparent),
+    radial-gradient(1px 1px at 60% 70%, rgba(245, 236, 217, 0.3), transparent),
+    radial-gradient(1px 1px at 80% 20%, rgba(212, 168, 87, 0.4), transparent),
+    radial-gradient(1px 1px at 30% 80%, rgba(95, 168, 163, 0.3), transparent),
+    radial-gradient(2px 2px at 50% 50%, rgba(245, 236, 217, 0.2), transparent),
+    radial-gradient(1px 1px at 10% 60%, rgba(245, 236, 217, 0.3), transparent),
+    radial-gradient(1px 1px at 90% 90%, rgba(212, 168, 87, 0.3), transparent);
+  background-size: 1000px 1000px;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+/* ===================================================
+   SPLINE 3D BACKDROP (behind everything after hero)
+   ===================================================
+   Adjust .spline-backdrop opacity below to taste.
+   Hidden on mobile + reduced-motion; starfield serves
+   as the graceful fallback.
+*/
+.spline-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.65;          /* dim slightly for text legibility */
+  overflow: hidden;
+}
+.spline-backdrop iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  pointer-events: none;
+}
+/* Soft dark overlay on top of the scene to keep
+   body text readable where it sits over the animation */
+.spline-backdrop::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 22, 40, 0.45) 0%,
+    rgba(10, 22, 40, 0.35) 100%
+  );
+  pointer-events: none;
+}
+@media (max-width: 768px) {
+  .spline-backdrop { display: none; }
+}
+
+main, header, footer { position: relative; z-index: 1; }
+
+a { color: var(--accent-bright); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--text); }
+img { max-width: 100%; height: auto; display: block; }
+
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-md); }
+
+/* ===================================================
+   HEADER / NAV
+   =================================================== */
+header.site {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(10, 22, 40, 0.88);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+header.site .container {
+  display: flex; justify-content: space-between; align-items: center;
+  padding-top: var(--space-sm); padding-bottom: var(--space-sm);
+}
+.logo {
+  font-family: var(--font-display);
+  font-weight: 400; font-size: 1.5rem;
+  color: var(--accent);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+nav ul { list-style: none; display: flex; gap: var(--space-md); }
+nav a {
+  color: var(--text-dim); font-size: 0.85rem;
+  font-family: var(--font-mono);
+  text-transform: uppercase; letter-spacing: 0.1em;
+}
+nav a:hover { color: var(--accent); }
+@media (max-width: 640px) {
+  nav ul { gap: var(--space-sm); }
+  nav a { font-size: 0.75rem; }
+}
+
+/* ===================================================
+   DECO ORNAMENTS
+   =================================================== */
+.divider {
+  display: flex; align-items: center; justify-content: center;
+  gap: var(--space-sm); margin: 0 auto; padding: var(--space-md) 0;
+  max-width: 240px;
+}
+.divider::before, .divider::after {
+  content: ''; flex: 1; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+.divider .ornament {
+  width: 14px; height: 14px;
+  border: 1px solid var(--accent);
+  transform: rotate(45deg);
+  position: relative;
+}
+.divider .ornament::after {
+  content: ''; position: absolute; inset: 3px;
+  background: var(--accent);
+}
+
+.numeral-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 56px; height: 56px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  font-family: var(--font-display);
+  color: var(--accent); font-size: 1.4rem;
+  letter-spacing: 0.05em;
+  background: var(--bg);
+  position: relative;
+  flex-shrink: 0;
+}
+.numeral-badge::before {
+  content: ''; position: absolute;
+  inset: 3px;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+/* ===================================================
+   HERO
+   =================================================== */
+.hero {
+  position: relative;
+  padding: var(--space-xl) 0 var(--space-lg);
+  text-align: center;
+  overflow: hidden;
+  background: var(--bg);   /* covers Spline backdrop during hero view */
+  z-index: 2;
+}
+.hero-sunburst {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(900px, 95vw);
+  height: min(900px, 95vw);
+  opacity: 0.35;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero-sunburst .orbit-spin {
+  transform-origin: center;
+  animation: orbit 45s linear infinite;
+}
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.hero > .container { position: relative; z-index: 1; }
+
+.hero .eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono); font-size: 0.75rem;
+  color: var(--teal); text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--teal);
+}
+
+.hero h1 {
+  font-family: var(--font-marquee);
+  font-size: clamp(3rem, 13vw, 8.5rem);
+  line-height: 0.95;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  margin-bottom: var(--space-md);
+  text-shadow:
+    0 0 30px rgba(212, 168, 87, 0.3),
+    0 0 60px rgba(212, 168, 87, 0.15);
+}
+
+.hero .subtitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+  color: var(--text);
+  letter-spacing: 0.04em;
+  max-width: 720px;
+  margin: 0 auto var(--space-md);
+  line-height: 1.4;
+}
+
+.hero p.lead {
+  font-size: 1.05rem; color: var(--text-dim);
+  max-width: 620px; margin: 0 auto var(--space-md);
+}
+
+.hero .cta-row {
+  display: flex; gap: var(--space-sm);
+  flex-wrap: wrap; justify-content: center;
+  margin-top: var(--space-md);
+}
+
+/* ===================================================
+   BUTTONS
+   =================================================== */
+.btn {
+  display: inline-block; padding: 0.85rem 1.8rem;
+  font-family: var(--font-mono); font-weight: 700;
+  font-size: 0.8rem; text-transform: uppercase;
+  letter-spacing: 0.15em;
+  transition: all 0.2s ease;
+  cursor: pointer; border: none;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+.btn-primary { background: var(--accent); color: var(--bg); }
+.btn-primary:hover { background: var(--accent-bright); color: var(--bg); text-decoration: none; }
+.btn-ghost {
+  background: transparent;
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.btn-ghost:hover { background: var(--accent-soft); color: var(--accent-bright); text-decoration: none; }
+
+/* ===================================================
+   SECTIONS
+   =================================================== */
+section { padding: var(--space-lg) 0; }
+section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  color: var(--text);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-sm);
+  line-height: 1.2;
+}
+section .section-sub {
+  color: var(--text-dim); margin-bottom: var(--space-md);
+  font-size: 1rem; max-width: 680px;
+}
+.section-label {
+  font-family: var(--font-mono); font-size: 0.72rem;
+  color: var(--accent); text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-bottom: var(--space-sm);
+  display: inline-block;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.section-label::before {
+  content: ''; position: absolute;
+  left: 0; top: 50%; transform: translateY(-50%);
+  width: 1rem; height: 1px;
+  background: var(--accent);
+}
+
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-size: 3.4rem;
+  color: var(--accent);
+  float: left;
+  line-height: 0.9;
+  padding: 0.35rem 0.7rem 0 0;
+  font-weight: 400;
+}
+
+/* ===================================================
+   WHAT I BUILD
+   =================================================== */
+.services-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-sm); margin-top: var(--space-md);
+}
+.service-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  padding: var(--space-md);
+  position: relative;
+  transition: all 0.25s ease;
+}
+.service-card::before {
+  content: ''; position: absolute;
+  inset: 4px;
+  border: 1px solid var(--border-gold);
+  opacity: 0.3;
+  pointer-events: none;
+}
+.service-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+.service-card .service-num {
+  font-family: var(--font-mono); font-size: 0.7rem;
+  color: var(--teal); letter-spacing: 0.2em;
+  margin-bottom: var(--space-xs);
+}
+.service-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.3rem; color: var(--accent);
+  margin-bottom: 0.5rem; letter-spacing: 0.03em;
+}
+.service-card p { color: var(--text-dim); font-size: 0.92rem; }
+
+/* ===================================================
+   PROJECTS
+   =================================================== */
+.project {
+  background: var(--bg-card);
+  border: 3px double var(--border-gold);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+  position: relative;
+  transition: border-color 0.25s;
+}
+.project:hover { border-color: var(--accent); }
+
+.project-header {
+  display: flex; align-items: flex-start;
+  gap: var(--space-md); flex-wrap: wrap;
+  margin-bottom: var(--space-sm);
+}
+.project-header-text { flex: 1; min-width: 0; }
+.project h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  color: var(--text);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+.project .meta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--teal);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.project .summary {
+  color: var(--text-dim);
+  margin-bottom: var(--space-sm);
+  font-size: 0.97rem;
+}
+.project .summary code {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+}
+.project .role {
+  font-size: 0.88rem;
+  color: var(--accent);
+  margin-bottom: var(--space-sm);
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+}
+
+/* ===================================================
+   TAGS
+   =================================================== */
+.tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: var(--space-sm) 0; }
+.tag {
+  font-family: var(--font-mono); font-size: 0.7rem;
+  background: transparent;
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--border-gold);
+  padding: 0.3rem 0.7rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+}
+
+/* ===================================================
+   PROJECT LINKS
+   =================================================== */
+.project-links {
+  display: flex; gap: var(--space-md);
+  margin-top: var(--space-sm); font-size: 0.9rem;
+}
+.project-links a {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.project-links a:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); }
+
+/* ===================================================
+   WORKFLOW DIAGRAMS
+   =================================================== */
+.workflow {
+  background: var(--bg-elev);
+  border: 1px solid var(--border-gold);
+  padding: var(--space-md);
+  margin: var(--space-sm) 0;
+  overflow-x: auto;
+  position: relative;
+}
+.workflow-title {
+  font-family: var(--font-mono); font-size: 0.72rem;
+  color: var(--teal); text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px dashed var(--border);
+}
+.workflow-flow {
+  display: flex; align-items: center; gap: 0.4rem;
+  flex-wrap: wrap; min-width: min-content;
+}
+.node {
+  display: flex; flex-direction: column; align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-gold);
+  padding: 0.6rem 0.9rem;
+  min-width: 115px; text-align: center;
+  font-size: 0.8rem;
+  position: relative;
+  transition: all 0.2s;
+}
+.node:hover { border-color: var(--accent); background: var(--bg-elev); }
+.node .node-type {
+  font-family: var(--font-mono); font-size: 0.62rem;
+  color: var(--teal); text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.2rem;
+}
+.node .node-name { color: var(--text); font-weight: 500; font-size: 0.85rem; }
+.node.trigger { border-color: var(--teal); }
+.node.trigger .node-type { color: var(--teal); }
+.node.ai { border-color: var(--accent); }
+.node.ai .node-type { color: var(--accent); }
+.arrow { color: var(--accent); font-family: var(--font-mono); font-size: 1.1rem; font-weight: 700; }
+.workflow-note {
+  font-size: 0.78rem; color: var(--text-faint);
+  margin-top: var(--space-sm); font-style: italic;
+}
+
+/* ===================================================
+   VIDEO EMBED — vertical YouTube Shorts
+   =================================================== */
+.video-embed {
+  max-width: 340px;
+  margin: var(--space-md) auto;
+  aspect-ratio: 9 / 16;
+  background: var(--bg);
+  border: 1px solid var(--border-gold);
+  position: relative;
+  overflow: hidden;
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ===================================================
+   OUTCOMES
+   =================================================== */
+.outcomes {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-sm); margin-top: var(--space-md);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border);
+}
+.outcome { text-align: center; }
+.outcome strong {
+  display: block;
+  font-size: 1.7rem;
+  color: var(--accent);
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+.outcome span {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ===================================================
+   SKILLS
+   =================================================== */
+.skills-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md); margin-top: var(--space-md);
+}
+.skill-group h4 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border-gold);
+}
+.skill-group ul { list-style: none; }
+.skill-group li {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  padding: 0.35rem 0;
+  border-bottom: 1px dashed var(--border);
+  font-family: var(--font-body);
+}
+.skill-group li::before {
+  content: '◆ '; color: var(--teal); font-size: 0.6rem;
+  margin-right: 0.4rem;
+}
+
+/* ===================================================
+   FAQ
+   =================================================== */
+.faq details {
+  border: 1px solid var(--border-gold);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-xs);
+  background: var(--bg-card);
+  transition: border-color 0.2s;
+}
+.faq details:hover { border-color: var(--accent); }
+.faq summary {
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text);
+  letter-spacing: 0.03em;
+  list-style: none;
+  display: flex; justify-content: space-between;
+  align-items: center;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: '+';
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.faq details[open] summary::after { content: '−'; }
+.faq details p {
+  margin-top: var(--space-sm);
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+
+/* ===================================================
+   CONTACT
+   =================================================== */
+.contact {
+  text-align: center;
+  padding: var(--space-lg) 0 var(--space-xl);
+}
+.contact h2 { margin-bottom: var(--space-sm); }
+.contact .contact-links {
+  display: flex; justify-content: center;
+  gap: var(--space-md); flex-wrap: wrap;
+  margin-top: var(--space-md);
+}
+.contact .contact-links a {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+.contact .contact-links a:hover { color: var(--accent-bright); border-bottom-color: var(--accent-bright); }
+
+/* ===================================================
+   FOOTER
+   =================================================== */
+footer.site {
+  border-top: 1px solid var(--border);
+  padding: var(--space-md) 0;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  letter-spacing: 0.1em;
+}
+.footer-ornament {
+  font-family: var(--font-display);
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: var(--space-xs);
+  letter-spacing: 0.3em;
+}
+
+/* ===================================================
+   ACCESSIBILITY
+   =================================================== */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-sunburst .orbit-spin { animation: none; }
+  .spline-backdrop { display: none; }
+  * { transition: none !important; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ============ SPLINE 3D BACKDROP ============
+     Fixed full-viewport WebGL scene. The hero section
+     covers this with an opaque background, so the
+     animation visually "begins" once you scroll past
+     the hero. Hidden on mobile and reduced-motion. -->
+<div class="spline-backdrop" aria-hidden="true">
+  <iframe
+    src="https://my.spline.design/interactivesparkletterwithparticleeffect-aGfANGkzSfURvmSB0hXLRC0g/"
+    title="Decorative 3D background animation"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+
+<header class="site">
+  <div class="container">
+    <a href="#top" class="logo" aria-label="Ashton Dean home">A · D</a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Stack</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Transmit</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <svg class="hero-sunburst" viewBox="-200 -200 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g stroke="#d4a857" stroke-width="0.5" fill="none">
+        <line x1="0" y1="-180" x2="0" y2="-100"/>
+        <line x1="0" y1="180" x2="0" y2="100"/>
+        <line x1="-180" y1="0" x2="-100" y2="0"/>
+        <line x1="180" y1="0" x2="100" y2="0"/>
+        <line x1="-127" y1="-127" x2="-71" y2="-71"/>
+        <line x1="127" y1="127" x2="71" y2="71"/>
+        <line x1="-127" y1="127" x2="-71" y2="71"/>
+        <line x1="127" y1="-127" x2="71" y2="-71"/>
+        <line x1="-156" y1="-90" x2="-86" y2="-50"/>
+        <line x1="156" y1="90" x2="86" y2="50"/>
+        <line x1="-156" y1="90" x2="-86" y2="50"/>
+        <line x1="156" y1="-90" x2="86" y2="-50"/>
+        <line x1="-90" y1="-156" x2="-50" y2="-86"/>
+        <line x1="90" y1="156" x2="50" y2="86"/>
+        <line x1="-90" y1="156" x2="-50" y2="86"/>
+        <line x1="90" y1="-156" x2="50" y2="-86"/>
+      </g>
+      <circle cx="0" cy="0" r="60" stroke="#d4a857" stroke-width="0.8" fill="none" opacity="0.6"/>
+      <circle cx="0" cy="0" r="95" stroke="#d4a857" stroke-width="0.5" fill="none" opacity="0.5"/>
+      <circle cx="0" cy="0" r="140" stroke="#5fa8a3" stroke-width="0.4" fill="none" opacity="0.5" stroke-dasharray="2 4"/>
+      <g class="orbit-spin">
+        <circle cx="140" cy="0" r="4" fill="#5fa8a3"/>
+        <circle cx="-95" cy="0" r="3" fill="#d4a857"/>
+        <circle cx="0" cy="60" r="2" fill="#f5ecd9"/>
+      </g>
+      <circle cx="0" cy="0" r="6" fill="#d4a857"/>
+      <circle cx="0" cy="0" r="12" stroke="#d4a857" stroke-width="0.8" fill="none"/>
+    </svg>
+
+    <div class="container">
+      <span class="eyebrow">Generalist Builder · AI · Automation · Web</span>
+      <h1>ASHTON DEAN</h1>
+      <p class="subtitle">I build AI systems, automation pipelines, and the websites that make them useful.</p>
+      <p class="lead">
+        Currently designing automated systems for businesses at Outlander Ventures. Recent B.S. in Information Technology — Web &amp; Mobile Programming — from Liberty University. Open to projects across AI engineering, workflow automation, GTM systems, and full-stack web or mobile builds.
+      </p>
+      <div class="cta-row">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-ghost">Make contact</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><div class="ornament"></div></div>
+
+  <!-- ============ WHAT I BUILD ============ -->
+  <section id="services">
+    <div class="container">
+      <p class="section-label">What I build</p>
+      <h2>Four practices. One workbench.</h2>
+      <p class="section-sub dropcap">From a single workbench I move between AI architecture, automation, web, and GTM engineering — picking the right tool for each problem rather than forcing every job through the same one. The lanes overlap more than they don't.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">N° 01</div>
+          <h3>AI Architecture</h3>
+          <p>Agentic systems, LLM integration, RAG pipelines, and the occasional voice agent. LangChain agents, OpenAI, Claude, Gemini.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">N° 02</div>
+          <h3>Workflow Automation</h3>
+          <p>Multi-step n8n workflows that combine LLMs, APIs, scraping, and integrations to remove the boring parts of a business.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">N° 03</div>
+          <h3>Web &amp; Mobile</h3>
+          <p>Production websites and React Native apps. Tight focus on SEO, AEO, schema, and the technical foundation underneath the design.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">N° 04</div>
+          <h3>GTM Engineering</h3>
+          <p>Automated lead generation, enrichment, and outbound workflows built on Serper, Apify, scraping, and CRM integrations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><div class="ornament"></div></div>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="work">
+    <div class="container">
+      <p class="section-label">Project dossier</p>
+      <h2>Selected work</h2>
+      <p class="section-sub dropcap">A mix of client engagements, collaborative builds, and personal projects. Workflow diagrams below are conceptual — actual implementations remain private. Live demos available on request.</p>
+
+      <!-- ===== PROJECT I — AI FUNDING RADAR ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project one">I</div>
+          <div class="project-header-text">
+            <h3>AI Funding Radar — GPU Buyer Qualifier</h3>
+            <span class="meta">2025 · Collaboration</span>
+          </div>
+        </div>
+        <p class="role">Role: Built the qualification &amp; enrichment pipeline (everything downstream of the classifier). A collaborator built the RSS ingestion and the initial AI-funding LLM classifier.</p>
+        <p class="summary">
+          An n8n workflow that monitors a PRNewswire RSS feed and surfaces qualified GPU-buyer leads from the noise. The first LLM classifies whether each article describes an AI company raising a funding round — explicitly excluding IPOs, acquisitions, and VC fund formations. Articles passing this first gate trigger an instant email alert and enter the enrichment pipeline I built.
+        </p>
+        <p class="summary">
+          My pipeline extracts the company name via a structured-JSON LLM call, runs a Serper LinkedIn search for Machine Learning Engineers, then uses a second LLM as an <strong>evidence-based fact-checker</strong> — it reads the actual search snippets and decides whether the company genuinely employs ML talent. Companies that fail this verification are dropped. Those that pass trigger a second Serper search for decision-makers (CEO, CTO, Co-Founders, Head of AI, Head of Platform, Head of Research, Head of AI Infra, DevOps), and a final LLM call extracts each person's name, role, and LinkedIn URL as structured JSON.
+        </p>
+        <p class="summary">
+          Built for a GPU-database provider to identify AI startups most likely to need GPU compute right after raising capital. Uses two different OpenRouter models — a free lightweight model for the high-volume binary classification and a larger Qwen 2.5 VL model for extraction tasks — a cost-aware design choice. Defensive JSON parsing in custom code nodes handles malformed LLM output by extracting the first valid JSON object from any conversational wrapper.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">n8n</span>
+          <span class="tag">Evidence-based RAG</span>
+          <span class="tag">Serper API</span>
+          <span class="tag">OpenRouter</span>
+          <span class="tag">Qwen 2.5 VL</span>
+          <span class="tag">Structured JSON</span>
+          <span class="tag">Two-Stage Qualification</span>
+          <span class="tag">LinkedIn Discovery</span>
+        </div>
+
+        <div class="workflow" aria-label="AI Funding Radar workflow diagram">
+          <p class="workflow-title">Workflow Architecture</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">Trigger</span><span class="node-name">PRNewswire RSS</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Loop</span><span class="node-name">Per Article</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM 1</span><span class="node-name">Classify: Funding + AI?</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Gate 1</span><span class="node-name">If True</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM 2</span><span class="node-name">Extract Company</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Code</span><span class="node-name">Parse JSON</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">API</span><span class="node-name">Serper: ML Search</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM 3</span><span class="node-name">Verify w/ Evidence</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Code</span><span class="node-name">Parse JSON</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Gate 2</span><span class="node-name">Has ML Engineers?</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">API</span><span class="node-name">Serper: Decision Makers</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM 4</span><span class="node-name">Extract People (JSON)</span></div>
+          </div>
+          <p class="workflow-note">Articles passing Gate 1 also trigger an immediate email alert in parallel. Diagram represents the production architecture; workflow runs privately in n8n.</p>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome"><strong>4</strong><span>LLM calls / article</span></div>
+          <div class="outcome"><strong>2</strong><span>qualification gates</span></div>
+          <div class="outcome"><strong>RAG</strong><span>evidence verification</span></div>
+          <div class="outcome"><strong>2</strong><span>cost-tiered models</span></div>
+        </div>
+      </article>
+
+      <!-- ===== PROJECT II — OUTLANDER GTM ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project two">II</div>
+          <div class="project-header-text">
+            <h3>Outlander Ventures — GTM Lead Generator</h3>
+            <span class="meta">2025 · Client work</span>
+          </div>
+        </div>
+        <p class="role">Role: Sole builder — workflow design, JavaScript enrichment, Google Sheets integration</p>
+        <p class="summary">
+          A local-business lead generation workflow that takes a niche and location as input, pulls candidate businesses from Serper Places, and runs each prospect through an enrichment pipeline that scores buying intent. Filters at &gt;100 reviews <em>before</em> any expensive HTTP work — a deliberate cost/performance choice so the workflow doesn't waste website fetches on businesses that will fail the gate anyway.
+        </p>
+        <p class="summary">
+          For each qualified prospect, a single JavaScript node fetches the website HTML and runs three parallel checks: it detects paid-ad investment via tracking pixels (Facebook Pixel, Google/GTM, TikTok) — a "smart money" signal that the business already spends on advertising; it extracts a contact email using a two-stage regex (preferring <code>mailto:</code> hrefs, falling back to raw pattern matching with junk filtering for image paths, Sentry errors, and Wix placeholders); and it flags multi-location operations by detecting common HTML patterns ("locations", "our areas", "serving these cities"). It also auto-generates a Meta Ad Library search URL per prospect — with a domain-as-fallback if the business name is missing — so the sales team can audit competitor ad creative in one click.
+        </p>
+        <p class="summary">
+          A subtle engineering detail: the Fetch Website node returns only HTML, breaking the data chain from Serper Places. The enrichment script handles this by reaching back to the Filter node by index and recombining the original prospect data with the scraped signals — keeping name, phone, address, rating, and reviews aligned with the new enrichment fields when results land in Google Sheets.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">n8n</span>
+          <span class="tag">Serper Places</span>
+          <span class="tag">Web Scraping</span>
+          <span class="tag">Buying-Intent Signals</span>
+          <span class="tag">Pixel Detection</span>
+          <span class="tag">Two-Stage Regex</span>
+          <span class="tag">Google Sheets API</span>
+          <span class="tag">Lead Enrichment</span>
+        </div>
+
+        <div class="workflow" aria-label="Outlander GTM Lead Generator workflow diagram">
+          <p class="workflow-title">Workflow Architecture</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">Trigger</span><span class="node-name">Manual Run</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Set</span><span class="node-name">Niche + Location</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">API</span><span class="node-name">Serper Places</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Split</span><span class="node-name">Per Business</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Filter</span><span class="node-name">Reviews &gt; 100</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">HTTP</span><span class="node-name">Fetch Website HTML</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">Code</span><span class="node-name">Enrich (JS)</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Output</span><span class="node-name">Google Sheets</span></div>
+          </div>
+          <p class="workflow-note">Enrichment script detects 3 ad networks, runs a 2-stage email extraction, flags multi-location operations, and recombines original Serper data with scraped signals before writing. Workflow runs privately in n8n.</p>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome"><strong>3</strong><span>ad networks detected</span></div>
+          <div class="outcome"><strong>2-stage</strong><span>email extraction</span></div>
+          <div class="outcome"><strong>Pre-filter</strong><span>saves HTTP calls</span></div>
+          <div class="outcome"><strong>1-click</strong><span>ad library audit</span></div>
+        </div>
+      </article>
+
+      <!-- ===== PROJECT III — MORNING BRIEF BOT ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project three">III</div>
+          <div class="project-header-text">
+            <h3>Morning Brief Bot</h3>
+            <span class="meta">2026 · Personal build · Phases 1–2 shipped, Phase 3 in roadmap</span>
+          </div>
+        </div>
+        <p class="role">Role: Sole builder — system design, n8n workflows, agentic tool design, Discord bridge, Notion API integration</p>
+        <p class="summary">
+          A personal productivity automation I built to solve two of my own problems: not knowing what to work on first, and losing track of follow-ups. The bot reads from a Notion task database I designed (Priority, Category, Due Date, Last Touched, Today's Focus), uses Gemini to write a prioritised morning brief, and delivers it daily. Designed as a three-phase build — one-way broadcast → interactive bot → voice-call assistant — so each phase ships value without depending on the next.
+        </p>
+        <p class="summary">
+          <strong>Phase 1 — Daily brief (shipped).</strong> A 5-node n8n workflow runs every morning at 7:30am, queries all non-DONE tasks from Notion's 2025-09 data_sources API, then a JavaScript node sorts by priority and flags overdue items plus stale follow-ups (no contact in 3+ days). The enriched payload is sent to Gemini 2.5 Flash-Lite with a formatting prompt; the model returns a brief with top 3 priorities, overdue items, stale items, and a closing accountability question. Posted to Discord via webhook. Cost: roughly $0.0001 per run.
+        </p>
+        <p class="summary">
+          <strong>Phase 2 — Two-way agent (shipped).</strong> Replies in Discord now control Notion. n8n can't natively subscribe to Discord, so I wrote a small Node.js bridge running alongside n8n that uses discord.js to listen to my channel and POSTs each message to an n8n webhook. The webhook hands the message to a LangChain AI Agent backed by Gemini, with eight tools exposed to it. The agent picks tools dynamically and chains them — for "done: client proposal" it calls <code>search_task_by_name</code> first to retrieve the Notion page ID, then <code>mark_task_done</code> with that ID. Tool parameters are populated by the model itself via n8n's <code>$fromAI()</code>, so there's no hardcoded if/switch routing — the LLM is the router.
+        </p>
+        <p class="summary">
+          <strong>Phase 3 — Voice integration (roadmap).</strong> A morning phone call reads the brief aloud, asks for the day's commitment, and writes the spoken response back to Notion. Falls back to the Discord message if the call is missed.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">n8n</span>
+          <span class="tag">LangChain Agent</span>
+          <span class="tag">Tool Calling</span>
+          <span class="tag">Gemini 2.5 Flash-Lite</span>
+          <span class="tag">Notion API (2025-09)</span>
+          <span class="tag">discord.js Bridge</span>
+          <span class="tag">Scheduled Automation</span>
+          <span class="tag">Personal Automation</span>
+        </div>
+
+        <div class="workflow" aria-label="Morning Brief Bot Phase 1 workflow diagram">
+          <p class="workflow-title">Phase 1 — Daily brief workflow</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">Trigger</span><span class="node-name">Schedule 7:30am</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">API</span><span class="node-name">Fetch Notion Tasks</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Code</span><span class="node-name">Sort + Flag Stale</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM</span><span class="node-name">Gemini Writes Brief</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Output</span><span class="node-name">Discord Webhook</span></div>
+          </div>
+        </div>
+
+        <div class="workflow" aria-label="Morning Brief Bot Phase 2 workflow diagram">
+          <p class="workflow-title">Phase 2 — Two-way agent workflow</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">User</span><span class="node-name">Discord Message</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Bridge</span><span class="node-name">discord.js → POST</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Webhook</span><span class="node-name">n8n Receiver</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">Agent</span><span class="node-name">Gemini + 8 Tools</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Output</span><span class="node-name">Discord Reply</span></div>
+          </div>
+          <p class="workflow-title" style="margin-top: var(--space-sm);">Agent Tools (Notion API, populated via $fromAI)</p>
+          <div class="tag-row" style="margin: 0;">
+            <span class="tag">get_active_tasks</span>
+            <span class="tag">get_overdue_tasks</span>
+            <span class="tag">search_task_by_name</span>
+            <span class="tag">mark_task_done</span>
+            <span class="tag">set_today_focus</span>
+            <span class="tag">create_task</span>
+            <span class="tag">snooze_task</span>
+            <span class="tag">touch_task</span>
+          </div>
+          <p class="workflow-note">The agent reasons across tools rather than following fixed routing. Workflows run privately in n8n; the discord.js bridge runs alongside.</p>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome"><strong>2 / 3</strong><span>phases shipped</span></div>
+          <div class="outcome"><strong>8</strong><span>agent tools</span></div>
+          <div class="outcome"><strong>~$0.0001</strong><span>per brief</span></div>
+          <div class="outcome"><strong>Daily</strong><span>since launch</span></div>
+        </div>
+      </article>
+
+      <!-- ===== PROJECT IV — CLOSET OS ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project four">IV</div>
+          <div class="project-header-text">
+            <h3>Closet OS — AI Wardrobe with Multimodal RAG</h3>
+            <span class="meta">2026 · Personal build · 7-day sprint · Android APK shipped</span>
+          </div>
+        </div>
+        <p class="role">Role: Sole builder — mobile UI, AI pipelines, vector search, auth, anti-hallucination design</p>
+        <p class="summary">
+          A React Native (Expo) wardrobe app: photograph each clothing item once, the system auto-tags and embeds it, and you ask for outfits in plain English — <em>"outfit for a 65° rainy interview"</em> — and it assembles one from clothes you actually own. Built end-to-end in seven days with real auth, vector search, and a published Android APK.
+        </p>
+        <p class="summary">
+          <strong>The architecture is multimodal RAG, but on images instead of documents.</strong> When a user photographs a garment, a Claude Vision call extracts structured tags (color, category, formality, season, material), then Gemini's <code>gemini-embedding-001</code> turns the item into a 768-dimensional vector — using Matryoshka sizing — stored in Postgres <code>pgvector</code> with an HNSW index for fast approximate nearest-neighbor search. At query time, the user's natural-language request is embedded with the same model, top-K matching items are retrieved by cosine similarity, and Claude assembles an outfit with reasoning — but <strong>constrained to only the items returned from the vector search</strong>. That constraint is the anti-hallucination guarantee: the model can't invent clothes the user doesn't own.
+        </p>
+        <p class="summary">
+          <strong>Engineering details worth flagging.</strong> Supabase Row-Level Security scopes every query — including the vector search — per authenticated user, so no user can see or retrieve another user's wardrobe. Cosine-similarity duplicate detection prevents users from photographing the same shirt twice, with the threshold tuned against real 85–95% similarity scores from my own closet. Wear tracking feeds back into the outfit engine so it can factor in "what hasn't been worn lately." EAS Update workflow set up for live demo iteration; Android APK published.
+        </p>
+        <p class="summary">
+          <strong>Meta-skill worth naming.</strong> Most of this was orchestrated through <strong>Claude Code with custom subagents</strong> — an agentic build workflow where specialized sub-agents handle distinct slices of the work (UI, backend, embeddings, auth) under coordination. Building software <em>with</em> agentic tooling is itself the AI Solution Architect skill set, applied to my own stack.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">React Native</span>
+          <span class="tag">Expo</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">Claude Vision</span>
+          <span class="tag">Gemini Embeddings</span>
+          <span class="tag">pgvector</span>
+          <span class="tag">HNSW Index</span>
+          <span class="tag">Matryoshka Sizing</span>
+          <span class="tag">Multimodal RAG</span>
+          <span class="tag">Row Level Security</span>
+          <span class="tag">Anti-Hallucination</span>
+          <span class="tag">Cosine Similarity</span>
+          <span class="tag">Claude Code Subagents</span>
+        </div>
+
+        <div class="workflow" aria-label="Closet OS ingestion pipeline diagram">
+          <p class="workflow-title">Ingestion — Photograph → Vector Store</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">User</span><span class="node-name">Photo Capture</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM</span><span class="node-name">Claude Vision — Auto-Tag</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">Embed</span><span class="node-name">Gemini · 768-dim</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Check</span><span class="node-name">Dedup (Cosine)</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Storage</span><span class="node-name">pgvector + HNSW</span></div>
+          </div>
+        </div>
+
+        <div class="workflow" aria-label="Closet OS outfit query pipeline diagram">
+          <p class="workflow-title">Outfit Query — Plain English → Outfit</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">User</span><span class="node-name">"65° rainy interview"</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">Embed</span><span class="node-name">Gemini · Query Vector</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Search</span><span class="node-name">Top-K via Cosine</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">LLM</span><span class="node-name">Claude Assembles Outfit</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Output</span><span class="node-name">Outfit + Reasoning</span></div>
+          </div>
+          <p class="workflow-note">Claude is constrained to assemble outfits only from items returned by the vector search — preventing hallucinated clothing the user doesn't own. Row-Level Security scopes the search to the authenticated user's wardrobe only.</p>
+        </div>
+
+        <div class="video-embed" aria-label="Closet OS demo video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/wg4kBuxpNyE"
+            title="Closet OS demo video"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome"><strong>7 days</strong><span>idea → shipped APK</span></div>
+          <div class="outcome"><strong>768-dim</strong><span>Matryoshka embeddings</span></div>
+          <div class="outcome"><strong>HNSW</strong><span>vector index</span></div>
+          <div class="outcome"><strong>RLS</strong><span>per-user scoping</span></div>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/ashdean22/closet-os" target="_blank" rel="noopener">View on GitHub →</a>
+          <a href="https://youtube.com/shorts/wg4kBuxpNyE" target="_blank" rel="noopener">Watch demo →</a>
+        </div>
+      </article>
+
+      <!-- ===== PROJECT V — A TO Z CONSTRUCTION ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project five">V</div>
+          <div class="project-header-text">
+            <h3>A to Z Construction</h3>
+            <span class="meta">2025 · Client site · atoz434.com</span>
+          </div>
+        </div>
+        <p class="role">Role: Designer, developer, SEO engineer</p>
+        <p class="summary">
+          Designed, built, and launched a production website for a local construction client. Implemented on-page SEO, technical SEO, and structured content targeting local search queries and AI answer engines.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">Web Design</span>
+          <span class="tag">On-page SEO</span>
+          <span class="tag">Technical SEO</span>
+          <span class="tag">Schema Markup</span>
+          <span class="tag">AEO</span>
+          <span class="tag">Local SEO</span>
+        </div>
+
+        <div class="project-links">
+          <a href="https://atoz434.com" target="_blank" rel="noopener">Visit site →</a>
+        </div>
+      </article>
+
+      <!-- ===== PROJECT VI — BOOKSHELF (Django) ===== -->
+      <article class="project">
+        <div class="project-header">
+          <div class="numeral-badge" aria-label="Project six">VI</div>
+          <div class="project-header-text">
+            <h3>BookShelf — Django Catalog with REST API</h3>
+            <span class="meta">2026 · Personal build · Python &amp; Django practice</span>
+          </div>
+        </div>
+        <p class="role">Role: Sole builder — data modeling, views, templates, authentication, REST API</p>
+        <p class="summary">
+          A Django web application that models a real-world publishing catalog and serves three distinct audiences from a single codebase and database: a public-facing reader website, a Django admin panel for editorial staff, and a JSON REST API at <code>/api/books/</code> for downstream consumers like mobile apps or partner integrations. I built it to learn Django end-to-end — models, templates, forms, sessions, auth, and Django REST Framework — in a context that mirrors how a real content-driven company actually runs its website.
+        </p>
+        <p class="summary">
+          The data layer is three models — <code>Author</code>, <code>Category</code>, <code>Book</code> — wired with a <code>ForeignKey</code> (book → author) and a <code>ManyToManyField</code> (book ↔ categories), each using <code>related_name</code> for clean reverse access. Both the HTML views and the API views read from the same ORM, so the public site, admin, and API can never drift out of sync.
+        </p>
+        <p class="summary">
+          <strong>Engineering decisions worth flagging.</strong> Fixed the N+1 query problem in the list view by replacing <code>Book.objects.all()</code> with <code>select_related("author").prefetch_related("categories")</code> — turning what would have been 151 queries on a 50-book page into 2. Explicit field lists in <code>ModelForm</code> and <code>ModelSerializer</code> instead of <code>fields = "__all__"</code>, so future sensitive fields don't auto-leak into public endpoints. DRF permissions set to <code>IsAuthenticatedOrReadOnly</code> — anonymous reads, authenticated writes, which is how a real publishing API should behave. CSRF tokens on every POST form including logout (changing server state should never be triggerable by a GET link). Serializer augmented with both raw IDs and human-readable names so the JSON is useful to humans as well as machines.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">Python 3.14</span>
+          <span class="tag">Django 6.0</span>
+          <span class="tag">Django REST Framework</span>
+          <span class="tag">ORM Modeling</span>
+          <span class="tag">N+1 Optimization</span>
+          <span class="tag">Session Auth</span>
+          <span class="tag">CSRF Protection</span>
+          <span class="tag">Permission Classes</span>
+          <span class="tag">ModelSerializers</span>
+          <span class="tag">SQLite</span>
+        </div>
+
+        <div class="workflow" aria-label="BookShelf architecture diagram">
+          <p class="workflow-title">Architecture — Three Audiences, One Source of Truth</p>
+          <div class="workflow-flow">
+            <div class="node trigger"><span class="node-type">Data</span><span class="node-name">Author · Category · Book</span></div>
+            <span class="arrow">▸</span>
+            <div class="node ai"><span class="node-type">ORM</span><span class="node-name">Django Models</span></div>
+            <span class="arrow">▸</span>
+            <div class="node"><span class="node-type">Layer 1</span><span class="node-name">HTML Templates</span></div>
+            <div class="node"><span class="node-type">Layer 2</span><span class="node-name">Admin Panel</span></div>
+            <div class="node"><span class="node-type">Layer 3</span><span class="node-name">REST API (DRF)</span></div>
+          </div>
+          <p class="workflow-note">Public readers, editorial staff, and API consumers all draw from the same ORM — so the site, admin, and downstream apps can never drift out of sync. Code is open-source on GitHub; live demo available on request.</p>
+        </div>
+
+        <div class="outcomes">
+          <div class="outcome"><strong>151 → 2</strong><span>queries after N+1 fix</span></div>
+          <div class="outcome"><strong>3</strong><span>audiences, 1 database</span></div>
+          <div class="outcome"><strong>Read-only</strong><span>public · auth'd writes</span></div>
+          <div class="outcome"><strong>CRUD</strong><span>web + admin + API</span></div>
+        </div>
+
+        <div class="project-links">
+          <a href="https://github.com/ashdean22/bookshelf-django" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><div class="ornament"></div></div>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Instruments</p>
+      <h2>Tools &amp; technologies</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>AI &amp; Automation</h4>
+          <ul>
+            <li>n8n</li>
+            <li>LangChain Agents</li>
+            <li>OpenAI API</li>
+            <li>Anthropic Claude API</li>
+            <li>Google Gemini</li>
+            <li>OpenRouter</li>
+            <li>RAG / Vector Search</li>
+            <li>Prompt Engineering</li>
+            <li>Vapi (Voice AI)</li>
+            <li>Apify · Serper</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Web &amp; Mobile</h4>
+          <ul>
+            <li>React Native</li>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+            <li>Python · Django</li>
+            <li>Django REST Framework</li>
+            <li>SQL · Java</li>
+            <li>Supabase</li>
+            <li>REST APIs</li>
+            <li>Replit</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>GTM Engineering</h4>
+          <ul>
+            <li>Lead Generation</li>
+            <li>Lead Enrichment</li>
+            <li>Outbound Workflows</li>
+            <li>CRM Integrations</li>
+            <li>Appointment Setting Ops</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>SEO &amp; AEO</h4>
+          <ul>
+            <li>On-page SEO</li>
+            <li>Technical SEO</li>
+            <li>Answer Engine Optimization</li>
+            <li>JSON-LD Schema</li>
+            <li>Site Performance</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h4>Tools</h4>
+          <ul>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Microsoft Office</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><div class="ornament"></div></div>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <p class="section-label">Frequent transmissions</p>
+      <h2>Frequently asked</h2>
+
+      <details>
+        <summary>What does Ashton Dean do?</summary>
+        <p>Generalist builder shipping AI systems, automation workflows, and production websites. Day-to-day: agentic workflows in n8n, GTM lead-generation pipelines, voice AI agents with Vapi, and SEO-optimized web and mobile apps.</p>
+      </details>
+
+      <details>
+        <summary>What is Go-to-Market (GTM) engineering?</summary>
+        <p>GTM engineering applies software automation to sales and marketing pipelines: automated prospecting, lead enrichment, outbound sequencing, and CRM integration. I build these systems with n8n, Serper, Apify, and LLM-based qualification.</p>
+      </details>
+
+      <details>
+        <summary>What tools does Ashton specialize in?</summary>
+        <p>n8n and LangChain agents are the primary workflow stack, paired with OpenAI, Anthropic Claude, and Google Gemini APIs. For GTM: Serper, Apify, and custom scrapers. For web/mobile: React Native, Supabase, and modern SEO tooling.</p>
+      </details>
+
+      <details>
+        <summary>Is Ashton available for freelance or contract work?</summary>
+        <p>Yes. Open to projects across AI engineering, automation, GTM systems, and full-stack web or mobile builds. Email <a href="mailto:ashdean1055@gmail.com">ashdean1055@gmail.com</a> to start a conversation.</p>
+      </details>
+
+      <details>
+        <summary>Why aren't the n8n workflows publicly viewable?</summary>
+        <p>Workflows contain client-specific logic, API keys, and proprietary prompts. The diagrams shown represent each workflow's architecture and node sequence; the production workflows remain private. Live demos available on request.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><div class="ornament"></div></div>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <p class="section-label">Make contact</p>
+      <h2>Let's build the future.</h2>
+      <p class="section-sub" style="margin-left: auto; margin-right: auto;">
+        Open to AI engineering, automation, GTM, and full-stack development work — contract or full-time.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:ashdean1055@gmail.com">ashdean1055@gmail.com</a>
+        <a href="https://www.linkedin.com/in/ashton-dean-3144b7201" target="_blank" rel="noopener">LinkedIn →</a>
+        <a href="https://github.com/ashdean22" target="_blank" rel="noopener">GitHub →</a>
+        <a href="tel:+19197587027">(919) 758-7027</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="footer-ornament">✦ · ✦ · ✦</div>
+    <p>© <span id="year"></span> Ashton Dean · Lynchburg, VA · Built with care</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
